@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783587945913",
+    "firebase_url": "https://bookyourdoctor-79ca4.firebaseio.com",
+    "project_id": "bookyourdoctor-79ca4",
+    "storage_bucket": "bookyourdoctor-79ca4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783587945913:android:b39b77c856eb6394f0da68",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783587945913-llb7hmoddk5q7sdo74ou3vqgube7nhr6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login",
+            "certificate_hash": "2d9e45e76c4e7a3e60ecab55cbfc6bd593db9b9b"
+          }
+        },
+        {
+          "client_id": "783587945913-idpi5gdgd50bbuk1jcr6k2vv7b5llcoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCatgNbIFqdtIFX-4iRgs2Vqb-7wCC7r9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783587945913-idpi5gdgd50bbuk1jcr6k2vv7b5llcoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

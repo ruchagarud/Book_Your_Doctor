@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AppointmentDetails">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="589dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_panel">
+
+        <TableRow
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:gravity="center"
+            android:text="Appointment Details"
+            android:textColor="#FF2020"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="50dp">
+
+            <TableRow
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/DocName"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Doctor name" />
+
+            <TextView
+                android:id="@+id/DoctName"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/DocName"
+                android:text="Deep Hospital"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Address"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Address" />
+
+            <TextView
+                android:id="@+id/Add"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/Address"
+                android:text="Deep Hospital,Opp Govt Girls School Circular Road Karad-415110"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/AppointmentTime"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Appointment Time" />
+
+            <TextView
+                android:id="@+id/Time"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_toRightOf="@id/AppointmentTime"
+                android:text="14-03-2020 10:12Am"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+            <TableRow
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fess"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Fees" />
+
+            <TextView
+                android:id="@+id/fees"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/fess"
+                android:text="Rs.100"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+            <TableRow
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/clientName"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Client Name" />
+
+            <TextView
+                android:id="@+id/CName"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/clientName"
+                android:text="Rucha"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+            <TableRow
+                android:id="@+id/t7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/clientMobile"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Client Mobile" />
+
+            <TextView
+                android:id="@+id/CMobile"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/clientMobile"
+                android:text="7775890898"/>
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/cancleAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/edit_text_style"
+            android:text="Cancel Appointment" />
+    </TableLayout>
+
+</RelativeLayout>

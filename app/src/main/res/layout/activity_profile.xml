@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="406dp"
+        android:layout_height="499dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_panel">
+
+        <EditText
+            android:id="@+id/patient"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Enter the name"
+            android:paddingLeft="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dateShow"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/edit_text_style"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:hint="Date :- "
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/timeShow"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/dateShow"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/edit_text_style"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:hint="Time :- "
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="292dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/timeShow"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Enter the mobile number"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="40dp"
+            android:text="You have to pay OPD charges at Hospital."
+            android:textColor="#23C41B"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/bookbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:background="#80BEDA"
+            android:text="book Appointment" />
+
+    </RelativeLayout>
+</RelativeLayout>
